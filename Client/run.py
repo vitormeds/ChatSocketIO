@@ -7,7 +7,7 @@ def connect():
     print('connection established')
     while 0 < 10:
          message = input("Mande a mensagem: ")
-         sio.emit('message', {'mensagem': message})
+         sio.emit('message', {'message': message})
          print('Eu: ' ,message)
 
 @sio.on('message')
