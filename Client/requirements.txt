@@ -1,11 +1,11 @@
 bidict==0.23.1
+certifi==2024.7.4
+charset-normalizer==3.3.2
 h11==0.14.0
-netifaces==0.10.6
+idna==3.8
 python-engineio==4.9.1
 python-socketio==5.11.3
-setuptools==3.3
+requests==2.32.3
 simple-websocket==1.0.0
-socketio==0.2.1
+urllib3==2.2.2
 wsproto==1.2.0
-asyncio==3.4.3
-aiohttp==3.10.5
